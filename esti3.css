@@ -1,0 +1,33 @@
+/* 
+La descripción debe ocupar el alto disponible. */
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.contenedor {
+    border: 2px solid black;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+}
+
+.contiene-info {
+    border: 2px solid black;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen {
+    background-color: aquamarine;
+    width: 250px;
+    height: 250px;
+}
+
+.descripcion {
+    align-self: stretch;
+}
